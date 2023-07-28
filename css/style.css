@@ -1,0 +1,3198 @@
+
+body{
+    font-family: "Poppins";
+} 
+
+
+
+*,
+*::after,
+*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --primery-color: #fd5f00;
+    --primery-font: #0d1128;
+    --primery-text: gray;
+    --primery-word: white;
+}
+
+ul,
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-gray{
+    color: rgb(85, 84, 84);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/*-------------------- header --------------------*/
+.social-media{
+    padding: 15px 0;
+}
+
+
+.social-media h1 {
+    flex-direction: column;
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.social-media h1 > span{
+    font-size: 13px;
+}
+
+.conect{
+    gap: 60px;
+}
+
+.conect section{
+    gap: 15px;
+}
+
+.conect section > i{
+    color: var(--primery-color);
+    font-size: 25px;
+}
+
+.conect h3 {
+    flex-direction: column;
+    font-weight: 1000;
+    font-size: 17px;
+    gap: 8px;
+}
+
+.conect h3 > span{
+    font-size: 17px;
+}
+
+.conect > span {
+    background-color: var(--primery-color);
+    display: inline-block;
+    margin: 0 0 0 80px;
+    padding: 13px 17px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #fd7e14;
+    transition: 0.3s;
+}
+
+.conect > span:hover{
+    background-color: transparent;
+    color: var(--primery-color);
+    border: 1px solid #fd7e14;
+}
+
+header .container nav{
+    background-color: var(--primery-font);
+    color: white;
+}
+
+/************ Hamburger Icon *************/
+
+header input {
+    display: none;
+}
+
+header label{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: absolute;
+    left: 136px;
+    opacity: 0;
+}
+
+header label .bar{
+    width: 19px;
+    height: 3px;
+    background-color: gray;
+}
+
+
+/************ End Of Hamburger Icon *************/
+
+
+
+/********************* menu *********************/
+header .container nav > ul {
+    gap: 50px;
+    margin: 20px 30px;
+}
+
+/*********************End Of menu *********************/
+
+header .container nav > span {
+    background-color: transparent;
+    width: 250;
+    height: 45px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding-left: 15;
+    line-height: 45px;
+    font-size: 20;
+    color: gray;
+}
+
+
+.slogan{ 
+   height: 120vh;
+   background-image: linear-gradient(to right , rgba(255, 166, 0, 0.178) , rgba(255, 81, 0, 0.486)) , url(../images/bg_2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 10% 0%;
+}
+
+.contact{
+    width: 40%;
+    margin: 0 125px;
+    padding: 145px  0px ;
+    color: white;
+}
+
+.contact  h1{
+    font-size: 60px;
+    font-weight: 2000px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 20px;
+    font-weight: 2000px;
+    margin-bottom: 60px;
+}
+
+
+.contact a{
+    background-color: #fd7e14;
+    padding: 18px 28px;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: 0.3s;
+    border: 1px solid var(--primery-color);
+}
+
+.contact a:hover{
+    background-color: transparent;
+    padding: 18px 28px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: var(--primery-color);
+    border: 1px solid var(--primery-color);
+}
+
+.services {
+    height: 60vh;
+    text-align: center;
+}
+
+.services div {
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+.first{
+    background-color: var(--primery-color);
+}
+.second{
+    background-color: var(--primery-font);
+}
+.third{
+    background-color: var(--primery-color);
+}
+.last{
+    background-color: var(--primery-font);
+}
+
+.services div >i{
+    font-size: 45px;
+    padding-top: 45px;
+    padding-bottom: 8px;
+}
+
+.services div > h3{
+    font-size: 25px;
+}
+
+.services div > span{
+    font-size: 18px;
+    word-spacing: 2px;
+    padding: 20px 20px;
+    text-align: center;
+    align-items: center;
+}
+/*----------------- End Of header -----------------*/
+
+/*------------------- Main Mark -------------------*/
+main{
+    height: 148vh;
+}
+
+
+main .mark{
+    height: 100%;
+}
+
+.mark div {
+    width: 721px;
+}
+
+
+.mark div nav > h3 {
+    padding-top: 46px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: var(--primery-font);
+}
+
+.mark div nav div{
+    padding: 20px 50px 50px 0;
+}
+
+.mark div > nav > .first {
+    padding-bottom: 18px;
+    line-height: 30px;
+    background-color: white;
+}
+
+.mark div nav > div > i{
+    width: 190px;
+    font-size: 45px;
+    background-color: var(--primery-color);
+    color: var(--primery-word);
+    border-radius: 50px;
+    margin: 30px;
+    padding: 25px;
+    margin-left: -5px;
+
+ }
+
+
+.mark div nav div > h1{
+    flex-direction: column;
+    padding-top: 14px;
+    padding-left: 1px;
+    color: var(--primery-font);
+}
+
+
+.mark div nav h1 > span{
+    font-size: 14px;
+    padding-top: 20px;
+    word-spacing: 3px;
+    color: var(--primery-text);
+}
+
+/*----------------- End Of Main Mark -----------------*/
+
+
+
+
+/*----------------- section Location -----------------*/
+
+.location{
+    height: 125vh;
+    background-image: linear-gradient(to right , rgba(20, 20, 20, 0.678) , rgba(255, 102, 0, 0.774)) , url(../images/bg_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.location  section > div{
+    height: 380px;
+    width: 520px;
+    background-image: url(../images/about-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 120px;
+}
+
+.location section div > i{
+    font-size: 35px;
+    background-color: var(--primery-word);
+    color: var(--primery-color);
+    border-radius: 50px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -35px , -35px);
+}
+
+.location section > h3 {
+    height: 380px;
+    width: 520px;
+    font-size: 40px;
+    flex-direction: column;
+    margin-top: 120px;
+    padding-top: 10px;
+    color: var(--primery-word);
+}
+
+
+.location section > h3 > span {
+    font-size: 16px;
+    padding-top: 26px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.774);
+}
+.numbers{
+    margin: 100px 60px 0px 60px;
+    color: var(--primery-word);
+
+}
+.numbers > section{
+    line-height: 44px;
+}
+
+.numbers section > h4{
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.numbers section > h4 > span {
+    font-size: 16px;
+}
+
+
+
+/*------------- End Of section Location -------------*/
+
+
+/*--------------------- main up ---------------------*/
+.up {
+    height: 165vh;
+}
+
+.up  h5{
+    flex-direction: column;
+    font-size: 50px;
+    padding-top: 120px;
+    margin: 0 140px 0 140px;
+    color: var(--primery-font);
+}
+
+.up  h5 > span{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+    text-align: center;
+    color: var(--primery-text);
+}
+
+.up nav {
+    margin: 0 25px 0 25px;
+    padding-top: 70px;
+}
+
+.up nav section{
+    width: 300px;
+    background-color: white;
+}
+
+
+.up nav .one {
+    height: 350px;
+    width: 300px;
+    background-image: url(../images/course-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.up nav .two {
+    height: 350px;
+    width: 300px;
+    background-image: url(../images/course-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.up nav .three {
+    height: 350px;
+    width: 300px;
+    background-image: url(../images/course-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.up nav .four {
+    height: 350px;
+    width: 300px;
+    background-image: url(../images/course-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.up nav  div > section {
+    padding-top: 20px;
+    
+}
+
+.up nav  div > section > i{
+    font-size: 15px;
+    padding-right: 3px;
+    color: var(--primery-color);
+    line-height: 1.5;
+}
+.up nav  div > section > h1{
+    font-size: 15px;
+    color: gray;
+}
+
+.up nav div h3 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: black;
+}
+.up nav div span {
+    padding-bottom: 20px;
+    line-height: 26px;
+}
+
+.up nav div a {
+    font-size: 13px;
+    width: 113px;
+    height: 40px;
+    background-color: var(--primery-color);
+    border-radius: 50px;
+    padding: 11px 18px;
+    border: 1px solid var(--primery-color);
+    color: white;
+}
+
+.up nav div a:hover{
+    background-color: transparent;
+    border-radius: 50px;
+    color: var(--primery-color);
+    border: 1px solid var(--primery-color);
+}
+
+
+/*----------------- End Of main up -----------------*/
+
+
+
+
+/*-------------------- Main Down --------------------*/
+
+.down{
+    height: 155vh;
+    background-color: rgba(248, 248, 248, 0.829);
+    margin-top: 30px;
+}
+
+
+.down h5{
+    flex-direction: column;
+    font-size: 50px;
+    padding-top: 100px;
+    margin: 0 140px 0 140px;
+    color: var(--primery-font);
+}
+
+
+.down  h5 > span{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    text-align: center;
+    color: var(--primery-text);
+}
+
+.down nav {
+    margin: 0 25px 0 25px;
+    padding-top: 85px;
+}
+
+.down nav .teach1 {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.down nav .teach1 .one {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/teacher-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1);
+    transition: 0.3s;
+    gap: 10px;
+}
+.down nav .teach1:hover .one {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/teacher-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.down nav .teach1 > .one > i{
+   padding-bottom: 10px;
+   color: transparent;
+   transition: 0.3s;
+}
+.down nav .teach1:hover > .one > i{
+    padding-bottom: 35px;
+    color: var(--primery-color);
+}
+
+
+.down nav .teach1 .two {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/teacher-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1);
+    transition: 0.3s;
+    gap: 10px;
+}
+.down nav .teach1:hover .two {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/teacher-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.down nav .teach1 > .two > i{
+   padding-bottom: 10px;
+   color: transparent;
+   transition: 0.3s;
+}
+.down nav .teach1:hover > .two > i{
+    padding-bottom: 35px;
+    color: var(--primery-color);
+}
+
+
+
+.down nav .teach1 .three {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/teacher-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1);
+    transition: 0.3s;
+    gap: 10px;
+}
+.down nav .teach1:hover .three {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/teacher-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.down nav .teach1 > .three > i{
+   padding-bottom: 10px;
+   color: transparent;
+   transition: 0.3s;
+}
+.down nav .teach1:hover > .three > i{
+    padding-bottom: 35px;
+    color: var(--primery-color);
+}
+
+
+.down nav .teach1 .four {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/teacher-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1);
+    transition: 0.3s;
+    gap: 10px;
+}
+.down nav .teach1:hover .four {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/teacher-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.down nav .teach1 > .four > i{
+   padding-bottom: 10px;
+   color: transparent;
+   transition: 0.3s;
+}
+.down nav .teach1:hover > .four > i{
+    padding-bottom: 35px;
+    color: var(--primery-color);
+}
+
+.down nav  div .info{
+    width: 300px;
+}
+
+.down nav div .info > h3{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.down nav  div .info:hover > h3{
+    color: var(--primery-color);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.down nav div .info > h1{
+    font-size: 10px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    color: var(--primery-color);
+}
+
+.down nav div .info > span{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height:25px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+/*---------------- End Of Main Down ----------------*/
+
+
+/*-------------------- nav list --------------------*/
+
+.list{
+    height: 90vh;
+    background-image: linear-gradient(to left , rgba(7, 7, 7, 0.74) , rgba(255, 94, 0, 0.548)) , url(../images/bg_5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.list div {
+    width: 500px;
+    height: 550px;
+    margin-left: 700px;
+}
+
+
+.list div section > h3{
+    font-size: 40px;
+    margin-top: 80px;
+    color: var(--primery-word);
+}
+
+.list div section span{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-right: 60px;
+    color: var(--primery-word);
+}
+
+.list div > form {
+    padding-top: 70px;
+}
+
+input,
+select,
+textarea {
+    width: 240px;
+    height: 55px;
+    color: var(--primery-text);
+    font-size: 20px;
+    padding: 15px 15px 15px 0px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.line {
+    align-items: flex-start;
+}
+
+.line span {
+    width: 240px;
+    height: 55px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    padding: 15px 15px 15px 0px;
+    margin-bottom: 15px;
+    border-radius: 35px;
+    color: var(--primery-word);
+    background-color: var(--primery-color);
+    border: 1px solid var(--primery-color);
+    transition: 0.2s;
+}
+
+.line span:hover {
+    color: var(--primery-color);
+    background-color: transparent;
+    border: 1px solid var(--primery-color);
+}
+
+
+/*-------------- End Of nav list --------------*/
+
+
+
+/*---------------- main Skills ----------------*/
+
+.skills{
+    height: 165vh;
+    background-color: rgba(245, 245, 245, 0.829);
+}
+
+
+.skills  h5{
+    flex-direction: column;
+    font-size: 50px;
+    padding-top: 120px;
+    margin: 0 140px 0 140px;
+    color: var(--primery-font);
+}
+
+.skills  h5 > span{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+    text-align: center;
+    color: var(--primery-text);
+}
+
+.skills nav {
+    padding-top: 70px;
+}
+
+.skills nav section{
+    width: 330px;
+    background-color: white;
+}
+
+
+.skills nav .one {
+    height: 280px;
+    width: 330px;
+    background-image: url(../images/image_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.skills nav .two {
+    height: 280px;
+    width: 330px;
+    background-image: url(../images/image_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.skills nav .three {
+    height: 280px;
+    width: 330px;
+    background-image: url(../images/image_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.skills nav  div > section {
+    padding-top: 20px;
+    
+}
+
+.skills nav  div > section > i{
+    font-size: 15px;
+    padding-right: 3px;
+    color: var(--primery-color);
+}
+.skills nav  div > section > h1{
+    font-size: 15px;
+    color: gray;
+}
+   
+
+.one h2 ,
+.two h2 ,
+.three h2 {
+    background-color: #5d50c6;
+    width: 48px;
+    height: 100px;
+    font-size: 30px;
+    padding: 12px 8px 0px 8px;
+    text-align: center;
+}
+
+
+
+.one   h2 > article ,
+.two   h2 > article , 
+.three h2 > article{
+    font-size: 20px;
+    font-size: 15px;
+    padding-top: 6px;
+    line-height: 20px;
+}
+
+.one ,
+.two , 
+.three {
+    align-items: self-end;
+}
+
+
+.skills nav div h3 {
+    padding-top: 25px;
+    padding-bottom: 22px;
+    margin-right: 50px;
+    margin-left: 20px;
+    color: black;
+}
+.skills nav div span {
+    line-height: 26px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.skills nav div a {
+    background-color: var(--primery-color);
+    color: white;
+    width: 120px;
+    height: 38px;
+    border-radius: 40px;
+    line-height: 2.5;
+    margin: 25px 0px 25px 20px;
+    border: 1px solid var(--primery-color);
+    transition: 0.2s;
+}
+
+.skills nav div a:hover {
+    background-color: transparent;
+    color: var(--primery-color);
+    border: 1px solid var(--primery-color);
+}
+
+/*------------ End Of main Skills ------------*/
+
+
+
+/*------------ main Students-says ------------*/
+
+.Students-says{
+    height: 110vh;
+}
+
+
+.Students-says  h5{
+    flex-direction: column;
+    font-size: 40px;
+    padding-top: 120px;
+    margin: 0 140px 0 140px;
+    color: var(--primery-font);
+}
+
+.Students-says  h5 > span{
+    width: 600px;
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 30px;
+    text-align: center;
+    color: var(--primery-text);
+}
+
+
+.Students-says section {
+    width: 516px;
+    height: 219px;
+    gap: 20px;
+}
+
+
+.Says{
+    background-image: url(../images/teacher-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 164px;
+    height: 129px;
+    border-radius: 50vw;
+}
+
+.Students-says section .comment{
+    width: 445px;
+    height: 204px;
+    margin-right: 18px;
+}
+
+
+.Students-says section div >span{
+    color: var(--primery-font);
+    line-height: 24px;
+    margin-top: 43px;
+    margin-bottom: 16px;
+}
+
+.Students-says section div > h2{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.Students-says section div > h1{
+    font-size: 13px;
+    margin-top: 15px;
+    color: var(--primery-color);
+}
+
+
+.dute {
+    gap: 10px;
+    margin-top: 60px;
+}
+
+
+.dute > article{
+    width: 12px;
+    height: 11px;
+    background-color: var(--primery-text);
+    border-radius: 50px;
+
+}
+
+/*------------ End Of main Students-says ----------*/
+
+
+
+
+/*------------------- nav picture-------------------*/
+.picture{
+    height: 50vh;
+    background-color: crimson;
+    flex-grow: 4;
+}
+
+.first-pic{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/course-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.sec-pic{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/image_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.third-pic{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/image_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.fourth-pic{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/image_4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.picture div > section{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.picture div > section > i{
+    color: transparent;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.first-pic:hover section{
+    background-color: var(--primery-color);
+}
+.first-pic:hover section >i{
+    color: var(--primery-word);
+}
+
+.sec-pic:hover section{
+    background-color: var(--primery-color);
+}
+.sec-pic:hover section >i{
+    color: var(--primery-word);
+}
+
+
+.third-pic:hover section{
+    background-color: var(--primery-color);
+}
+.third-pic:hover section >i{
+    color: var(--primery-word);
+}
+
+
+.fourth-pic:hover section{
+    background-color: var(--primery-color);
+}
+.fourth-pic:hover section >i{
+    color: var(--primery-word);
+}
+
+/*--------------- End Of nav picture---------------*/
+
+
+
+
+/*-------------------- footer --------------------*/
+
+footer{
+    height: 100vh;
+    background-color: black;
+    color: var(--primery-word);
+}
+
+
+footer .Questions {
+    width: 267px;
+    margin-top: 78px;
+    gap: 20px;
+}
+
+
+footer .Questions  div {
+    margin-top: 15px;
+}
+
+
+
+footer .Questions div span {
+    margin-left: 20px;
+    font-size: 17;
+}
+
+footer .Questions div i {
+    font-size: 20;
+}
+
+footer .Events {
+    width: 265px;
+    margin-top: 78px;
+    gap: 20px;
+}
+
+
+footer .Events .event1{
+    width: 217px;
+    height: 81px;
+    background-image: url(../images/image_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+footer .Events  div {
+    margin-top: 6px;
+    transition: 0.2s;
+}
+
+footer .Events  div:hover {
+    color: var(--primery-color);
+    margin-top: 6px;
+}
+
+
+.event-up{
+    margin-left: 20px;
+    line-height: 25px;
+    padding-right: 20px;
+}
+
+
+.event-up div {
+    font-size: 20px;
+}
+
+
+.event-up  article{
+    margin-top: 10px;
+}
+
+.event-up  article section{
+    margin-top: 5px;
+}
+
+.event-up article  span i{
+    font-size: 12px;
+}
+
+
+
+
+footer .Events .event2{
+    width: 217px;
+    height: 81px;
+    background-image: url(../images/image_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.event-down{
+    margin-left: 20px;
+    line-height: 25px;
+    padding-right: 20px;
+}
+
+
+.event-down div {
+    font-size: 20px;
+}
+
+
+.event-down  article{
+    margin-top: 10px;
+}
+
+.event-down  article section{
+    margin-top: 5px;
+}
+
+.event-down article  span i{
+    font-size: 12px;
+}
+
+
+
+footer .Links {
+    margin-top: 78px;
+    gap: 20px;
+}
+
+
+footer .Links  div {
+    margin-top: 25px;
+    line-height: 22px;
+}
+
+footer .Links  nav {
+    gap: 3px;
+    align-items: center;
+
+}
+
+footer .Subscribe{
+    width: 280px;
+    margin-top: 78px;
+    gap: 20px;
+}
+
+footer .Subscribe h2{
+    padding-left: 21px;
+    margin-bottom: 26px;
+}
+
+footer .Subscribe div input{
+   background-color: gray;
+   color: var(--primery-text);
+   border-radius: 5px;
+}
+
+footer .Subscribe div span{
+    background-color: #5d50c6;
+    width: 240px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+footer .Subscribe div span:hover{
+    background-color: var(--primery-color);
+}
+
+.connect-us{
+    display: flex;
+    flex-direction: column;
+    padding-left: 21px;
+    font-size: 23px;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.connect-us section{
+    gap: 15px;
+}
+
+.connect-us section i{
+    width: 42px;
+    background-color: var(--primery-text);
+    color: var(--primery-word);
+    height: 41px;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+
+footer .made-in{
+    width: 526px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 300px 0px 300px;
+}
+
+/*---------------- End OF footer ---------------*/
+    
+
+@media (min-width:320px) and (max-width:500px){
+    
+    .container{
+        width: 481px;
+        padding: 0px 20px;
+    }
+
+    header{
+        height: 375vh;
+    }
+
+    .social-media{
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .conect{
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .conect section{
+        margin: 30px 40px 0px -200px;
+    }
+    
+    .conect > span {
+        background-color: var(--primery-color);
+        display: inline-block;
+        height: 45px;
+        text-align: center;
+        line-height: 15px;
+        margin: 10 0 0 318px;
+        padding: 13px 17px;
+        color: white;
+        font-size: 18px;
+        border: 1px solid #fd7e14;
+        transition: 0.3s;
+    }
+    
+
+
+
+    /*************** Burger Menu ***************/
+
+    header .container nav{
+        background-color: var(--primery-font);
+        color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 70px;
+    }
+
+
+    header .container nav > ul {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 90px;
+        margin-top: 30px;
+        width: 200px;
+    }
+
+    header label{
+        margin-left: -68px;
+        opacity: 1;
+    }
+
+    header nav input:checked ~ ul{
+        opacity: 1;
+        background-color: var(--primery-font);
+        margin: 214px 0px 0px 0px;
+        width: 350px;
+    }
+
+    /************ End Of Burger Menu ************/
+
+    header .container nav > span {
+        background-color: transparent;
+        width: 150;
+        height: 52px;
+        margin: 0px 28px 0px -92px;
+        border-radius: 50px;
+        border: 1px solid gray;
+        line-height: 45px;
+        font-size: 20;
+        color: gray;
+    }
+
+
+    .slogan{ 
+        height: 92vh;
+        background-image: linear-gradient(to right , rgba(255, 166, 0, 0.178) , rgba(255, 81, 0, 0.486)) , url(../images/bg_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .contact{
+        width: 90%;
+        color: white;
+        margin: 0px 0px 0px 36px;
+        padding: 145px  0px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact  h1{
+        width: 400px;
+        font-size: 40px;
+        margin-bottom: 28px;
+        text-align: center
+    }
+
+    .contact p {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 2000px;
+        margin-bottom: 60px;
+        text-align: center;
+    }      
+
+
+    .services {
+       height: 220vh;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+    }
+
+   .services div {
+       height: 100%;
+       flex-direction: column;
+       gap: 15px;
+       color: white;
+    }
+
+
+
+    main{
+        height: 188vh;
+    }
+
+    .mark img {
+        display: none;
+    }
+
+
+    main .mark{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .mark div nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mark div{
+        width: 100%;
+    }
+
+
+
+   .mark div nav > h3 {
+       width: 300;
+       padding-top: 40px;
+       padding-bottom: 20px;
+       font-size: 35px;
+       color: var(--primery-font);
+    }
+
+   .mark div nav div{
+       padding: 15px 0px 4px 0;
+    }
+
+   .mark div > nav > .first {
+       width: 430px;
+       padding-bottom: 18px;
+       line-height: 30px;
+       background-color: white;
+    }
+
+   .mark div nav h1 > span{
+       width: 300;
+       font-size: 14px;
+       padding-top: 20px;
+       word-spacing: 3px;
+       color: var(--primery-text);
+    }
+
+   .location{
+       height: 250vh;
+       background-image: linear-gradient(to right , rgba(20, 20, 20, 0.678) , rgba(255, 102, 0, 0.774)) , url(../images/bg_3.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       background-attachment: fixed;
+    }
+
+   .location  div  {
+       display: flex;
+       flex-direction: column;
+    }
+
+   .location  section > div{
+       height: 286px;
+       width: 442px;
+       background-image: url(../images/about-2.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       position: relative;
+       margin-top: 120px;
+    }
+
+   .location  div > section {
+       display: flex;
+       flex-direction: column;
+    }
+
+   .location section > h3 {
+       height: 380px;
+       width: 430px;
+       font-size: 40px;
+       flex-direction: column;
+       margin-top: 56px;
+       padding-top: 5px;
+       color: var(--primery-word);
+   }
+
+
+   .location section > h3 > span {
+       font-size: 16px;
+       padding-top: 26px;
+       line-height: 28px;
+       color: rgba(255, 255, 255, 0.774);
+    }
+
+
+   .numbers{
+       margin: 100px 60px 0px 60px;
+       gap: 45px;
+       color: var(--primery-word);
+    }
+
+
+   .up {
+       height: 480vh;
+    }
+
+   .up  h5{
+    width: 441px;
+       flex-direction: column;
+       font-size: 30px;
+       padding-top: 120px;
+       margin: 0px;
+       color: var(--primery-font);
+    }
+
+   .up  h5 > span{
+       font-size: 20px;
+       line-height: 30px;
+       padding-top: 30px;
+       text-align: center;
+       color: var(--primery-text);
+    }
+
+   .up nav {
+       margin: 0 25px 0 25px;
+       padding-top: 70px;
+       display: flex;
+       flex-direction: column;
+    }
+
+   .up nav section{
+       width: 100%;
+       background-color: white;
+    }
+
+
+   .up nav .one {
+       height: 350px;
+       width: 100%;
+       background-image: url(../images/course-1.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+   .up nav .two {
+       height: 350px;
+       width: 100%;
+       background-image: url(../images/course-2.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+   .up nav .three {
+       height: 350px;
+       width: 100%;
+       background-image: url(../images/course-3.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+   .up nav .four {
+       height: 350px;
+       width: 100%;
+       background-image: url(../images/course-4.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+
+   .up nav  div > section {
+       padding-top: 20px;
+    } 
+
+   .up nav div a {
+       width: 113px;
+       height: 40px;
+       background-color: var(--primery-color);
+       border-radius: 50px;
+       padding: 11px 18px;
+       border: 1px solid var(--primery-color);
+       color: white;
+       margin-bottom: 45px;
+    }
+
+
+   .down{
+       height: 410vh;
+       background-color: rgba(248, 248, 248, 0.829);
+       margin-top: 30px;
+    }
+
+
+   .down h5{
+       flex-direction: column;
+       font-size: 30px;
+       margin: 0px;
+       padding-top: 100px;
+       color: var(--primery-font);
+    }
+
+
+   .down  h5 > span{
+       font-size: 20px;
+       line-height: 30px;
+       padding-top: 20px;
+       text-align: center;
+       color: var(--primery-text);
+    }
+
+   .down nav {
+       margin: 0 25px 0 25px;
+       padding-top: 85px;
+    }
+
+   .down nav  div{
+       display: flex;
+       flex-direction: column;
+    }
+
+   .down nav .teach1 {
+       width: 100%;
+       height: 400px;
+       overflow: hidden;
+    }
+
+   .down nav  div .info{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       margin-bottom: 40px;
+    }
+
+
+   .down nav .teach1 .one {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+       background-image: url(../images/teacher-1.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       transform: scale(1);
+       transition: 0.3s;
+       gap: 10px;
+    }
+
+   .down nav .teach1:hover .one {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+       background-image: url(../images/teacher-1.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       transform: scale(1.1);
+    }
+
+
+   .down nav .teach1 .two {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+       background-image: url(../images/teacher-2.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       transform: scale(1);
+       transition: 0.3s;
+       gap: 10px;
+    }
+
+   .down nav .teach1:hover .two {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+       background-image: url(../images/teacher-2.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       transform: scale(1.1);
+    }
+
+
+   .down nav .teach1 .three {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+       background-image: url(../images/teacher-3.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       transform: scale(1);
+       transition: 0.3s;
+       gap: 10px;
+    }
+
+   .down nav .teach1:hover .three {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+       background-image: url(../images/teacher-3.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       transform: scale(1.1);
+    }
+
+   .down nav .teach1 .four {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+       background-image: url(../images/teacher-4.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       transform: scale(1);
+       transition: 0.3s;
+       gap: 10px;
+    }
+
+   .down nav .teach1:hover .four {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+       background-image: url(../images/teacher-4.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+       transform: scale(1.1);
+    }
+
+
+
+   .down nav div .info > h3{
+       color: black;
+       font-size: 20px;
+       text-align: center;
+       padding-top: 20px;
+    }
+
+   .down nav  div .info:hover > h3{
+       color: var(--primery-color);
+       font-size: 20px;
+       text-align: center;
+       padding-top: 20px;
+    }
+
+   .down nav div .info > h1{
+       font-size: 10px;
+       padding-top: 10px;
+       letter-spacing: 2px;
+       color: var(--primery-color);
+    }
+
+   .down nav div .info > span{
+       font-size: 15px;
+       letter-spacing: 1px;
+       line-height:25px;
+       text-align: center;
+       padding-top: 12px;
+    }
+
+
+
+   .list{
+       height: 118vh;
+       background-image: linear-gradient(to left , rgba(7, 7, 7,    0.74) , rgba(255, 94, 0, 0.548)) , url(../images/bg_5.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+
+   .list div {
+       width: 100%;
+       height: 700px;
+       margin: 0px 0px 0px 0px;
+      
+    }
+
+
+   .list div section > h3{
+       font-size: 40px;
+       margin-top: 60px;
+       color: var(--primery-word);
+    }
+
+   .list div section span{
+       width: 480px;
+       font-size: 20px;
+       margin-top: 32px;
+       padding-right: 60px;
+       color: var(--primery-word);
+    }
+
+   .list div > form {
+       padding-top: 70px;
+       display: flex;
+       flex-direction: column;
+       padding-top: 70px;
+    }
+
+   .list div > form  nav {
+       display: flex;
+       flex-direction: column;
+    }
+
+
+   input,
+   select,
+   textarea {
+       width: 240px;
+       height: 55px;
+       color: var(--primery-text);
+       font-size: 20px;
+       padding: 15px 15px 15px 0px;
+       margin-bottom: 15px;
+       background-color: transparent;
+       border: none;
+   }
+   
+   .line {
+       align-items: flex-start;
+    }
+
+    .line span {
+        width: 100%;
+        height: 55px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 22px;
+        padding: 15px 15px 15px 0px;
+        margin-bottom: 15px;
+        border-radius: 35px;
+        color: var(--primery-word);
+        background-color: var(--primery-color);
+        border: 1px solid var(--primery-color);
+        transition: 0.2s;
+    }
+
+
+
+   .skills{
+       height: 315vh;
+       background-color: rgba(245, 245, 245, 0.829);
+    }
+
+
+   .skills  h5{
+       flex-direction: column;
+       font-size: 20px;
+       padding-top: 120px;
+       margin: 0px;
+       color: var(--primery-font);
+    }
+
+
+
+   .skills  h5 > span{
+       font-size: 20px;
+       line-height: 30px;
+       padding-top: 30px;
+       text-align: center;
+       color: var(--primery-text);
+    }
+
+
+
+   .skills nav {
+       padding-top: 70px;
+       display: flex;
+       flex-direction: column;
+    }
+
+   .skills nav section{
+       width: 100%;
+       background-color: white;
+       margin-bottom: 30px;   
+    }
+    
+
+
+
+   .skills nav .one {
+       height: 280px;
+       width: 100%;
+       background-image: url(../images/image_1.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+   .skills nav .two {
+       height: 280px;
+       width: 100%;
+       background-image: url(../images/image_2.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+   .skills nav .three {
+       height: 280px;
+       width: 100%;
+       background-image: url(../images/image_3.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+
+
+   .Students-says{
+       height: 115vh;
+    }
+
+
+   .Students-says  h5{
+       width: 100%;
+       flex-direction: column;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 25px;
+       margin: 0px;
+       padding-top: 120px;
+       color: var(--primery-font);
+    }
+
+   .Students-says  h5 > span{
+       width: 400px;
+       font-size: 15px;
+       line-height: 30px;
+       padding-top: 30px;
+       text-align: center;
+       color: var(--primery-text);
+    }
+
+
+   .Students-says section {
+       width: 416px;
+       height: 230px;
+       gap: 20px;
+    }
+
+
+   .Says{
+       background-image: url(../images/teacher-4.jpg);
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 166px;
+       height: 105px;
+       border-radius: 50vw;
+    }
+   
+
+    .picture{
+       height: 215vh;
+       background-color: crimson;
+       flex-grow: 4;
+       display: flex;
+       flex-direction: column;
+    }
+
+
+    footer{
+       height: 260vh;
+       background-color: black;
+       color: var(--primery-word);
+       display: flex;
+       flex-direction: column;
+    }
+
+    footer section{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    footer .Questions {
+        width: 100%;
+        margin-top: 78px;
+        gap: 20px;
+    }
+
+
+ 
+   footer .Events {
+       width: 100%;
+       margin-top: 78px;
+       gap: 20px;
+    }
+
+
+    footer .Events .event1{
+        width: 92px;
+        height: 87px;
+        background-image: url(../images/image_1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .event-up{
+        margin-left: 20px;
+        line-height: 25px;
+        height: 98px;;
+    }
+
+
+   .event-up  article{
+       margin-top: 3px;
+       display: flex;
+       gap: 6px;
+    }
+
+   .event-up  article section{
+       margin-top: 5px;
+       display: inline-block;
+    }
+
+
+   footer .Events .event2{
+       width: 92px;
+       height: 87px;
+       background-image: url(../images/image_2.jpg);
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
+    }
+
+
+
+   .event-down{   
+       margin-left: 20px;
+       line-height: 25px;
+       height: 98px;
+   }
+
+
+
+
+
+   .event-down  article{
+       margin-top: 3px;
+       display: flex;
+       gap: 6px;
+    }
+
+   .event-down  article section{
+       margin-top: 5px;
+       display: inline-block;
+    }
+
+
+   footer .Links {
+       margin-top: 78px;
+       gap: 25px;
+    }
+
+
+   footer .Subscribe{
+       width: 100%;
+       margin-top: 78px;
+       gap: 40px;
+    }
+
+   footer .Subscribe h2{
+       padding-left: 0px;
+       margin-bottom: 0px;
+    }
+
+   footer .Subscribe div input{
+      width: 100%;
+      text-align: center;
+      background-color: gray;
+      color: var(--primery-text);
+      border-radius: 5px;background-color: gray;
+      color: var(--primery-text);
+      border-radius: 5px;
+    }
+
+   footer .Subscribe div span{
+        background-color: #5d50c6;
+        width: 100%;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+   .connect-us{
+        display: flex;
+        flex-direction: column;
+        padding-left: 21px;
+        font-size: 23px;
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .connect-us section{
+        display: inline;
+        gap: 15px; gap: 15px;
+    }
+
+    .connect-us section i{
+        width: 42px;
+        background-color: var(--primery-text);
+        color: var(--primery-word);
+        height: 41px;
+        text-align: center;
+        line-height: 43px;
+        border-radius: 50px;
+        font-size: 25px;
+        margin-right: 8px;
+    }
+
+
+    footer .made-in{
+        width: 400px;
+        height: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 140px 323px 8px 14px;
+    }
+
+}
+
+
+@media (min-width:500px) and (max-width:768px) {
+
+    .container{
+        width: 522px;
+        padding: 0px 0px;
+    }
+
+    header{
+        height: 375vh;
+    }
+
+    .social-media{
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .social-media h1 > span{
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    
+    .conect{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    
+    
+    .conect > span {
+        background-color: var(--primery-color);
+        display: inline-block;
+        margin: 0 0 0 400px;
+        padding: 8px 16px;
+        color: white;
+        font-size: 15px;
+        border: 1px solid #fd7e14;
+        transition: 0.3s;
+    }
+    
+
+    
+    
+    /*************** Burger Menu ***************/
+
+    header .container nav{
+        background-color: var(--primery-font);
+        color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 80px;
+    }
+
+
+    header .container nav > ul {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 90px;
+        margin-top: 30px;
+        width: 200px;
+    }
+
+    header label{
+        margin-left: 45px;
+        opacity: 1;
+    }
+
+    header nav input:checked ~ ul{
+        opacity: 1;
+        background-color: var(--primery-font);
+        margin: 214px 0px 0px 0px;
+        width: 300px;
+    }
+
+    /************ End Of Burger Menu ************/
+
+
+    header .container nav > span {
+        background-color: transparent;
+        width: 182px;
+        height: 52px;
+        border-radius: 50px;
+        border: 1px solid gray;
+        padding-left: 15;
+        line-height: 45px;
+        font-size: 20;
+        color: gray;
+    }
+
+    
+    .slogan{ 
+       height: 100vh;
+       background-image: linear-gradient(to right , rgba(255, 166, 0, 0.178) , rgba(255, 81, 0, 0.486)) , url(../images/bg_2.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: 10% 0%;
+    }
+    
+    .contact{
+        width: 90%;
+        color: white;
+        margin: 0px 0px 0px 36px;
+        padding: 145px  0px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact  h1{
+        width: 400px;
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center
+    }
+    
+    .contact p {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 2000px;
+        margin-bottom: 60px;
+        text-align: center
+    }
+    
+    
+    .contact a{
+        width: 150px;
+        background-color: #fd7e14;
+        border-radius: 50px;
+        font-size: 16px;
+        transition: 0.3s;
+        border: 1px solid var(--primery-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .services {
+        height: 225vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .services div {
+        height: 100%;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 15px;
+        color: white;
+    }
+
+   
+    main{
+        height: 200vh;
+        margin-top: 100px;
+    }
+
+    .mark img {
+        display: none;
+    }
+
+
+    main .mark{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mark div {
+        width: 520px;
+    }
+
+    .mark div nav {
+       display: flex;
+       flex-direction: column;
+    }
+    
+    
+    .mark div nav > h3 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 35px;
+        color: var(--primery-font);
+    }
+
+
+    
+    .mark div nav div{
+        padding: 15px 0px 4px 0;
+    }
+
+    .mark div nav div > i{
+        width: 117px;
+        font-size: 45px;
+        background-color: var(--primery-color);
+        color: var(--primery-word);
+        border-radius: 50px;
+        margin: 18px;
+        padding: 25px;
+        margin-left: -5px;
+    }
+    
+    .mark div > nav > .first {
+        padding-bottom: 18px;
+        line-height: 30px;
+    }
+    
+
+    .mark img {
+        opacity: 0;
+        display: none;
+    }
+    
+    .location{
+        height: 265vh;
+        background-image: linear-gradient(to right , rgba(20, 20, 20, 0.678) , rgba(255, 102, 0, 0.774)) , url(../images/bg_3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .location  section > div{
+        height: 380px;
+        width: 520px;
+        background-image: url(../images/about-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        margin-top: 120px;
+    }
+    
+
+    .location  div  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location  div > section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .location section > h3 {
+        height: 380px;
+        width: 520px;
+        font-size: 40px;
+        flex-direction: column;
+        margin-top: 56px;
+        padding-top: 5px;
+        color: var(--primery-word);
+    }
+    
+    
+    .numbers{
+        margin: 70px 60px 0px 60px;
+        color: var(--primery-word);
+        gap: 58px;
+    
+    }
+    
+
+    .up {
+        height: 470vh;
+    }
+    
+    .up div > h5{
+        flex-direction: column;
+        font-size: 50px;
+        margin: 0px;
+        padding-top: 120px;
+        color: var(--primery-font);
+    }
+     
+    .up nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 22px 0 40px;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .up nav section{
+        width: 100%;
+        background-color: white;
+    }
+    
+    
+    .up nav .one {
+        height: 350px;
+        width: 100%;
+        background-image: url(../images/course-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    .up nav .two {
+        height: 350px;
+        width: 100%;
+        background-image: url(../images/course-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    .up nav .three {
+        height: 350px;
+        width: 100%;
+        background-image: url(../images/course-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    .up nav .four {
+        height: 350px;
+        width: 100%;
+        background-image: url(../images/course-4.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    
+    .up nav  div > section {
+        padding-top: 20px;
+        
+    }
+    
+    .up nav  div > section > i{
+        font-size: 15px;
+        padding-right: 3px;
+        color: var(--primery-color);
+    }
+    .up nav  div > section > h1{
+        font-size: 15px;
+        color: gray;
+    }
+    
+    .up nav div h3 {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        color: black;
+    }
+    .up nav div span {
+        padding-bottom: 20px;
+        line-height: 26px;
+    }
+    
+    .up nav div a {
+        width: 113px;
+        height: 40px;
+        background-color: var(--primery-color);
+        border-radius: 50px;
+        padding: 11px 18px;
+        margin-bottom: 50px;
+        border: 1px solid var(--primery-color);
+        color: white;
+    }
+    
+    
+    .down{
+        height: 410vh;
+        background-color: rgba(248, 248, 248, 0.829);
+        margin-top: 100px;
+    }
+    
+    
+    .down{
+        height: 420vh;
+        background-color: rgba(248, 248, 248, 0.829);
+        margin-top: 30px;
+     }
+ 
+ 
+    .down h5{
+        flex-direction: column;
+        font-size: 30px;
+        margin: 0px;
+        padding-top: 100px;
+        color: var(--primery-font);
+     }
+ 
+ 
+    .down  h5 > span{
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 20px;
+        text-align: center;
+        color: var(--primery-text);
+     }
+ 
+    .down nav {
+        margin: 0 25px 0 25px;
+        padding-top: 85px;
+     }
+ 
+    .down nav  div{
+        display: flex;
+        flex-direction: column;
+     }
+ 
+    .down nav .teach1 {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+     }
+ 
+    .down nav  div .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 40px;
+     }
+ 
+ 
+    .down nav .teach1 .one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-image: url(../images/teacher-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transform: scale(1);
+        transition: 0.3s;
+        gap: 10px;
+     }
+ 
+    .down nav .teach1:hover .one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-image: url(../images/teacher-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transform: scale(1.1);
+     }
+ 
+ 
+    .down nav .teach1 .two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-image: url(../images/teacher-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transform: scale(1);
+        transition: 0.3s;
+        gap: 10px;
+     }
+ 
+    .down nav .teach1:hover .two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-image: url(../images/teacher-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transform: scale(1.1);
+     }
+ 
+ 
+    .down nav .teach1 .three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-image: url(../images/teacher-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transform: scale(1);
+        transition: 0.3s;
+        gap: 10px;
+     }
+ 
+    .down nav .teach1:hover .three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-image: url(../images/teacher-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transform: scale(1.1);
+     }
+ 
+    .down nav .teach1 .four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-image: url(../images/teacher-4.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transform: scale(1);
+        transition: 0.3s;
+        gap: 10px;
+     }
+ 
+    .down nav .teach1:hover .four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-image: url(../images/teacher-4.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transform: scale(1.1);
+     }
+ 
+ 
+ 
+    .down nav div .info > h3{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+     }
+ 
+    .down nav  div .info:hover > h3{
+        color: var(--primery-color);
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+     }
+ 
+    .down nav div .info > h1{
+        font-size: 10px;
+        padding-top: 10px;
+        letter-spacing: 2px;
+        color: var(--primery-color);
+     }
+ 
+    .down nav div .info > span{
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height:25px;
+        text-align: center;
+        padding-top: 12px;
+     }
+ 
+ 
+ 
+    .list{
+        height: 128vh;
+        background-image: linear-gradient(to left , rgba(7, 7, 7,    0.74) , rgba(255, 94, 0, 0.548)) , url(../images/bg_5.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+ 
+ 
+    .list div {
+        width: 472px;
+        height: 700px;
+        margin: 0px 0px 0px 0px;
+    }
+ 
+ 
+    .list div section > h3{
+        font-size: 40px;
+        margin-top: 60px;
+        color: var(--primery-word);
+     }
+ 
+    .list div section span{
+        width: 480px;
+        font-size: 20px;
+        margin-top: 32px;
+        padding-right: 60px;
+        color: var(--primery-word);
+     }
+ 
+    .list div > form {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+     }
+ 
+    .list div > form  nav {
+        display: flex;
+        flex-direction: column;
+     }
+ 
+ 
+    input,
+    select,
+    textarea {
+        width: 240px;
+        height: 55px;
+        color: var(--primery-text);
+        font-size: 20px;
+        padding: 15px 15px 15px 0px;
+        margin-bottom: 15px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .line {
+        align-items: flex-start;
+     }
+ 
+     .line span {
+         width: 100%;
+         height: 55px;
+         font-size: 20px;
+         text-align: center;
+         line-height: 22px;
+         padding: 15px 15px 15px 0px;
+         margin-bottom: 15px;
+         border-radius: 35px;
+         color: var(--primery-word);
+         background-color: var(--primery-color);
+         border: 1px solid var(--primery-color);
+         transition: 0.2s;
+     }
+ 
+ 
+ 
+    .skills{
+        height: 330vh;
+        background-color: rgba(245, 245, 245, 0.829);
+     }
+ 
+ 
+    .skills  h5{
+        flex-direction: column;
+        font-size: 20px;
+        padding-top: 120px;
+        margin: 0px;
+        color: var(--primery-font);
+     }
+ 
+ 
+ 
+    .skills  h5 > span{
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 30px;
+        text-align: center;
+        color: var(--primery-text);
+     }
+ 
+ 
+ 
+    .skills nav {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+     }
+ 
+    .skills nav section{
+        width: 100%;
+        background-color: white;
+        margin-bottom: 30px;   
+     }
+     
+ 
+ 
+ 
+    .skills nav .one {
+        height: 280px;
+        width: 100%;
+        background-image: url(../images/image_1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+     }
+ 
+    .skills nav .two {
+        height: 280px;
+        width: 100%;
+        background-image: url(../images/image_2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+     }
+ 
+    .skills nav .three {
+        height: 280px;
+        width: 100%;
+        background-image: url(../images/image_3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+     }
+ 
+ 
+ 
+    .Students-says{
+        height: 100vh;
+     }
+ 
+ 
+    .Students-says  h5{
+        width: 100%;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 0px;
+        padding-top: 30px;
+        color: var(--primery-font);
+     }
+ 
+    .Students-says  h5 > span{
+        width: 400px;
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: var(--primery-text);
+     }
+ 
+ 
+    .Students-says section {
+        width: 416px;
+        height: 230px;
+        gap: 20px;
+     }
+ 
+ 
+    .Says{
+        background-image: url(../images/teacher-4.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 166px;
+        height: 105px;
+        border-radius: 50vw;
+     }
+    
+ 
+     .picture{
+        height: 215vh;
+        background-color: crimson;
+        flex-grow: 4;
+        display: flex;
+        flex-direction: column;
+     }
+ 
+ 
+     footer{
+        height: 260vh;
+        background-color: black;
+        color: var(--primery-word);
+        display: flex;
+        flex-direction: column;
+     }
+ 
+     footer section{
+         display: flex;
+         flex-direction: column;
+     }
+ 
+ 
+     footer .Questions {
+         width: 100%;
+         margin-top: 78px;
+         gap: 20px;
+     }
+ 
+ 
+  
+    footer .Events {
+        width: 100%;
+        margin-top: 78px;
+        gap: 20px;
+     }
+ 
+ 
+     footer .Events .event1{
+         width: 92px;
+         height: 87px;
+         background-image: url(../images/image_1.jpg);
+         background-repeat: no-repeat;
+         background-position: center center;
+         background-size: cover;
+     }
+ 
+     .event-up{
+         margin-left: 20px;
+         line-height: 25px;
+         height: 98px;;
+     }
+ 
+ 
+    .event-up  article{
+        margin-top: 3px;
+        display: flex;
+        gap: 6px;
+     }
+ 
+    .event-up  article section{
+        margin-top: 5px;
+        display: inline-block;
+     }
+ 
+ 
+    footer .Events .event2{
+        width: 92px;
+        height: 87px;
+        background-image: url(../images/image_2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+     }
+ 
+ 
+ 
+    .event-down{   
+        margin-left: 20px;
+        line-height: 25px;
+        height: 98px;
+    }
+ 
+ 
+ 
+ 
+ 
+    .event-down  article{
+        margin-top: 3px;
+        display: flex;
+        gap: 6px;
+     }
+ 
+    .event-down  article section{
+        margin-top: 5px;
+        display: inline-block;
+     }
+ 
+ 
+    footer .Links {
+        margin-top: 78px;
+        gap: 25px;
+     }
+ 
+ 
+    footer .Subscribe{
+        width: 100%;
+        margin-top: 78px;
+        gap: 40px;
+     }
+ 
+    footer .Subscribe h2{
+        padding-left: 0px;
+        margin-bottom: 0px;
+     }
+ 
+    footer .Subscribe div input{
+       width: 100%;
+       text-align: center;
+       background-color: gray;
+       color: var(--primery-text);
+       border-radius: 5px;background-color: gray;
+       color: var(--primery-text);
+       border-radius: 5px;
+     }
+ 
+    footer .Subscribe div span{
+         background-color: #5d50c6;
+         width: 100%;
+         height: 55px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 24px;
+         border-radius: 5px;
+         transition: 0.3s;
+     }
+ 
+    .connect-us{
+         display: flex;
+         flex-direction: column;
+         padding-left: 21px;
+         font-size: 23px;
+         margin-top: 50px;
+         gap: 20px;
+     }
+ 
+     .connect-us section{
+         display: inline;
+         gap: 15px; gap: 15px;
+     }
+ 
+     .connect-us section i{
+         width: 42px;
+         background-color: var(--primery-text);
+         color: var(--primery-word);
+         height: 41px;
+         text-align: center;
+         line-height: 43px;
+         border-radius: 50px;
+         font-size: 25px;
+         margin-right: 8px;
+     }
+ 
+ 
+     footer .made-in{
+         width: 493px;
+         height: 67px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         margin: 140px 323px 8px 19px;
+     }
+ 
+
+
+}
+
